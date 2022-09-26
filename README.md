@@ -7,13 +7,12 @@ The motivation behind this project was to teach myself Python as well as learn h
 ## Rules: 
 1) When a square is selected, it will check its surroundings top, bottom
 left, right, and diagonals for bombs and indicate number of bombs. 
-2) In case where there's no bombs, will check its neighbor squares for bombs, 
-repeats if there's no bombs. Ends when all squares have at least 1 bomb as a neighbor
+2) In case where selected square has no bombs, will check its neighbor squares for bombs, 
+repeats if there's no bombs. Ends when all selected squares have at least 1 bomb as a neighbor
 3) The first selected square will never contain a bomb.
 4) Game is lost if selected square is a bomb.
 5) All ' ' spaces will represent empty squares, numerical squares and 's' will represent selected squares.
 's' squares means there are no neighboring bombs.
-Squares with no neighboring bombs in rule 2) will also be considered selected squares.
 'x' will represent bombs, this will only show when the game is lost. The user may use "flags" to represent squares where the user thinks is a bomb. All flags
 will be represented as "F" on the board. Flags are optional!
 6) TO INPUT SQUARES, MUST BE NUMERICAL FORMAT. e.g
