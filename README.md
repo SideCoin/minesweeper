@@ -3,7 +3,7 @@
 ### Made by **Regan Yang**. 
 
 Currently isn't optimized for board size changes as I hard coded things to fit the 9x9 board. In the future, I will update this to include GUI, maybe Tkinter? 
-
+The motivation behind this project was to teach myself Python as well as learn how to play minesweeper. Turns out, minesweeper isn't as complex as I thought, but implementing it had some interesting challenges! 
 ## Rules: 
 1) When a square is selected, it will check its surroundings top, bottom
 left, right, and diagonals for bombs and indicate number of bombs. 
